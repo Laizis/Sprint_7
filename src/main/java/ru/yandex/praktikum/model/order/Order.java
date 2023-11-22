@@ -1,4 +1,4 @@
-package ru.yandex.praktikum.model.courier.order;
+package ru.yandex.praktikum.model.order;
 
 import lombok.*;
 

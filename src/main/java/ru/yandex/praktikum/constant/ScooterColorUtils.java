@@ -1,4 +1,4 @@
-package ru.yandex.pkraktikum.constant;
+package ru.yandex.praktikum.constant;
 
 public class ScooterColorUtils {
     public static final String COLOR_GREY = "GREY";

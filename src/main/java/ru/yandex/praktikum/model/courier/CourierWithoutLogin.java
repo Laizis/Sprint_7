@@ -1,18 +1,13 @@
-package ru.yandex.praktikum.model.courier.courierForAuth;
+package ru.yandex.praktikum.model.courier;
 
 import lombok.*;
-import ru.yandex.praktikum.model.courier.Courier;
 
 @Getter
 @Setter
 @NoArgsConstructor
+@AllArgsConstructor
 @ToString
 @EqualsAndHashCode
-
-public class CourierForAuthWithoutLogin {
+public class CourierWithoutLogin{
     private String password;
-
-    public CourierForAuthWithoutLogin(Courier courier) {
-        this.password = courier.getPassword();
-    }
 }
