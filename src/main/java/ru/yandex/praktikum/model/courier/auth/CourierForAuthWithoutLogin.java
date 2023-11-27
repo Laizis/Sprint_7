@@ -1,4 +1,4 @@
-package ru.yandex.praktikum.model.courier.courierForAuth;
+package ru.yandex.praktikum.model.courier.auth;
 
 import lombok.*;
 import ru.yandex.praktikum.model.courier.Courier;
@@ -8,7 +8,6 @@ import ru.yandex.praktikum.model.courier.Courier;
 @NoArgsConstructor
 @ToString
 @EqualsAndHashCode
-
 public class CourierForAuthWithoutLogin {
     private String password;
 

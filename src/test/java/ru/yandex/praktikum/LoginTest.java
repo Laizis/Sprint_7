@@ -4,15 +4,13 @@ import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.Response;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.http.HttpStatus;
-import org.hamcrest.CoreMatchers;
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import ru.yandex.praktikum.client.courier.CourierClient;
 import ru.yandex.praktikum.model.courier.Courier;
-import ru.yandex.praktikum.model.courier.courierForAuth.CourierForAuth;
-import ru.yandex.praktikum.model.courier.courierForAuth.CourierForAuthWithoutLogin;
-import ru.yandex.praktikum.model.courier.courierForAuth.CourierForAuthWithoutPassword;
+import ru.yandex.praktikum.model.courier.auth.CourierForAuth;
+import ru.yandex.praktikum.model.courier.auth.CourierForAuthWithoutLogin;
+import ru.yandex.praktikum.model.courier.auth.CourierForAuthWithoutPassword;
 import ru.yandex.praktikum.service.CourierGenerator;
 
 import static org.hamcrest.CoreMatchers.*;

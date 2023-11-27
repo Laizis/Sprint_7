@@ -6,9 +6,9 @@ import ru.yandex.praktikum.client.Client;
 import ru.yandex.praktikum.model.courier.Courier;
 import ru.yandex.praktikum.model.courier.CourierWithoutLogin;
 import ru.yandex.praktikum.model.courier.CourierWithoutPassword;
-import ru.yandex.praktikum.model.courier.courierForAuth.CourierForAuth;
-import ru.yandex.praktikum.model.courier.courierForAuth.CourierForAuthWithoutLogin;
-import ru.yandex.praktikum.model.courier.courierForAuth.CourierForAuthWithoutPassword;
+import ru.yandex.praktikum.model.courier.auth.CourierForAuth;
+import ru.yandex.praktikum.model.courier.auth.CourierForAuthWithoutLogin;
+import ru.yandex.praktikum.model.courier.auth.CourierForAuthWithoutPassword;
 
 public class CourierClient extends Client {
     private final static String ROOT = "/courier";

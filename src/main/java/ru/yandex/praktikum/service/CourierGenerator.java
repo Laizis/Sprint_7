@@ -4,9 +4,9 @@ import org.apache.commons.lang3.RandomStringUtils;
 import ru.yandex.praktikum.model.courier.Courier;
 import ru.yandex.praktikum.model.courier.CourierWithoutLogin;
 import ru.yandex.praktikum.model.courier.CourierWithoutPassword;
-import ru.yandex.praktikum.model.courier.courierForAuth.CourierForAuth;
-import ru.yandex.praktikum.model.courier.courierForAuth.CourierForAuthWithoutLogin;
-import ru.yandex.praktikum.model.courier.courierForAuth.CourierForAuthWithoutPassword;
+import ru.yandex.praktikum.model.courier.auth.CourierForAuth;
+import ru.yandex.praktikum.model.courier.auth.CourierForAuthWithoutLogin;
+import ru.yandex.praktikum.model.courier.auth.CourierForAuthWithoutPassword;
 
 public class CourierGenerator {
     private final String password = "password";
